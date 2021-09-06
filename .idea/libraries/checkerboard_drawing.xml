@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="checkerboard-drawing">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/checkerboard-drawing/out/artifacts/checkerboard_drawing_jar/checkerboard-drawing.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
