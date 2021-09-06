@@ -8,37 +8,28 @@ import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 
-/**
- *  This file can be used to draw simple pictures.  Just fill in
- *  the definition of drawPicture with the code that draws your picture.
- */
+
+//The contents of the drawPicture class are original work. The rest was created by the textbook author.
+//At this point in the textbook, students were not expected to be able to make a complete javafx application.
+
 public class CheckerDrawing extends Application {
 
-    /**
-     * Draws a picture.  The parameters width and height give the size
-     * of the drawing area, in pixels.
-     */
     public void drawPicture(GraphicsContext g, int width, int height) {
         g.setFill(Color.ANTIQUEWHITE);
-        g.fillRect(0,0,400,400);
-        int temp1;
-        int temp2;
+        g.fillRect(0,0,width,height);
         g.setFill(Color.BLACK);
-        //g.fillRect(50,0,50,50);
         for(int i=0; i<450; i=i+50){
             for (int j=0; j<450;j=j+50){
                 if((i%100==0&&j%100==0)||(i%100!=0&&j%100!=0)){
                     g.fillRect(i-50,j-50, 50, 50);
                 }
-
             }
         }
-
-
     }
 
 
 
+//Everything below this line was made by the textbook's author.
 
     //------ Implementation details: DO NOT EXPECT TO UNDERSTAND THIS ------
 
